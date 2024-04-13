@@ -1,0 +1,121 @@
+@import url(../color.css);
+
+body {
+    background-color: #D17D94;
+}
+
+header {
+    height: 10rem;
+    background-color: var(--cor-primaria );
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.header-navegaçao {
+    display: flex;
+}
+
+.header-navegaçao * {
+    font-size: 2rem;
+    margin-left: 12px;
+    color: rgb(54, 114, 193);
+}
+
+.header-navegaçao *:hover {
+    color: rgb(29, 14, 241);
+    transform: scale(1.1);
+}
+
+.header-navegaçao a:nth-child(2) {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #D17D94;
+}
+
+h1 {
+    color: E2BFB3;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.professores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professores__interno {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+.professores__cartao {
+    border: solid 2px var(--cor-primaria);
+    width: 29rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: var(--cor--primaria);
+    border-radius: 10px;
+}
+
+.professores__cartao:hover {
+    transform: scale(1.01);
+    box-shadow: 7px 7px rgba(186, 78, 132, 0.667);
+}
+
+.professores__cartao__imagem {
+    width: 100%;
+    height: 80%;
+}
+
+.professores__cartao__rodape {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.professores__cartao__rodape__nome {
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 6rem;
+    background: rgb(209, 125, 148);
+    background: linear-gradient(180deg, rgba(209, 125, 148, 1) 47%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: rgb(0, 0, 0);
+}
+
+.footer-links h2 {
+    margin-bottom: 2rem;
+}
