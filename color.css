@@ -1,0 +1,12 @@
+:root {
+    --cor--primaria: #185380;
+    --cor--segundaria:#60a0c8;
+    --cor--terciaria: #fbf4f6;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
